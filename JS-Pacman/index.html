@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pac-Man</title>
+    <link rel="stylesheet" href="logic/styles.css">
+  </head>
+  <body>
+    <div>
+      <h1>Pac-Man</h1>
+      <canvas id="gameCanvas"></canvas>
+
+      <p>Your current score is: <span id="score"></span></p>
+      <form id="score-form">
+        <input type="text" id="player-name" placeholder="Enter your name" />
+        <button type="submit">Submit Score</button>
+      </form>
+      <div id="leaderboard"></div>
+      <div id="instructions">
+        <h2>Instructions</h2>
+        <ul>
+          <li>LEFT ARROW/A = Left</li>
+          <li>RIGHT ARROW/D = Right</li>
+          <li>UP ARROW/W = Up</li>
+          <li>DOWN ARROW/S = Down</li>
+          <li>P = Pause/Resume</li>
+        </ul>
+      </div>
+    </div>
+    <script src="logic/Status.js" type="module"></script>
+  </body>
+</html>

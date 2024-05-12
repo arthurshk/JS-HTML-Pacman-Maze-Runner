@@ -1,0 +1,177 @@
+#gameCanvas {
+    box-shadow: 5px 5px 10px black;
+    touch-action: none;
+}
+h1 {
+    text-align: center;
+    font-family: Gabriola MS;
+    font-size: 60px;
+    color: lightgrey;
+}
+
+p {
+
+    font-family: Gabriola MS;
+    font-size: 25px;
+    color: lightgrey;
+    margin: 6px;
+}
+#leaderboard {
+    display: flex;
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    position: absolute;
+    left: 2%;
+    top: 25%;
+
+}
+@media screen and (max-width: 1900px) {
+    #leaderboard {
+        width: 500px;
+    }
+
+    #instructions {
+        top: 25%;
+        right: 80%;
+        font-size: medium;
+    }
+
+    #instructions h2 {
+        margin-left: 30px;
+    }
+
+    #instructions ul {
+        margin-left: 5px;
+    }
+    h1{
+        margin-top: -5px;
+    }
+    #gameCanvas{
+        margin-top: -35px;
+    }
+}
+@media screen and (max-width: 1700px) {
+    #leaderboard {
+        width: 380px;
+    }
+    #instructions{
+        top: 25%;
+        right: 80%;
+        font-size: medium;
+    }
+    #instructions h2 {
+        margin-left: 30px;
+    }
+    #instructions ul{
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    #leaderboard {
+        width: 330px;
+    }
+    #instructions{
+        top: 25%;
+        right: 80%;
+        font-size: medium;
+    }
+    #instructions h2 {
+        margin-left: 50px;
+    }
+    #instructions ul{
+        margin-left: 5px;
+    }
+
+}
+@media screen and (max-width: 1330px) {
+    #leaderboard {
+        width: 275px;
+    }
+    #instructions {
+
+        font-size: medium;
+    }
+    #instructions h2 {
+        display: none;
+    }
+    #instructions ul{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    #leaderboard {
+        width: 210px;
+    }
+    #instructions {
+
+        font-size: large;
+    }
+    #instructions h2 {
+        display: none;
+    }
+    #instructions ul{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+    #leaderboard {
+        width: 150px;
+    }
+    #instructions {
+
+        font-size: large;
+    }
+    #instructions h2 {
+        display: none;
+    }
+    #instructions ul{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 958px) {
+    #leaderboard {
+        display: none;
+    }
+    #instructions h2{
+        display: none;
+    }
+    #instructions ul{
+        display: none;
+    }
+}
+body {
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    height: 100vh;
+    background: linear-gradient(
+            0deg,
+            rgb(234, 7, 7) 0%,
+            rgb(20, 124, 109) 100%
+    );
+}
+#instructions {
+    display: flex;
+    height: 300px;
+    width: 600px;
+    background-color: transparent;
+    position: absolute;
+    left: 70%;
+    top: 25%;
+}
+
+#instructions h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#instructions li {
+    margin: 5px 0;
+}
+#score-form{
+    margin: 6px;
+}
