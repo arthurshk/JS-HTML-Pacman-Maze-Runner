@@ -1,4 +1,4 @@
-Play it [here](https://arthurshk.github.io/JS-Pacman/)
+Play it [here](https://arthurshk.github.io/JS-Pacmanz/)
 <br>
 Dynamic web application created through Vanilla JS, HTML, CSS with enhanced performance through data caching techniques and object interactions on a canvas.
 ![pacman](https://github.com/arthurshk/JS-Pacman/assets/135430504/dd196d85-596e-4fac-b71d-271cd1e586f4)
