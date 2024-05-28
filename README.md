@@ -1,4 +1,4 @@
-Play it [here](https://arthurshk.github.io/JS-Pacman/)
+Play it [here](https://arthurshk.github.io/JS-HTML-Pacman-Maze-Runner/)
 <br>
 Dynamically created through Vanilla JS, HTML, CSS with enhanced performance through data caching techniques and object interactions on a canvas.
 ![pacman](https://github.com/arthurshk/JS-Pacman/assets/135430504/e79c69a7-f112-4ca3-b4fc-155278b890ec)
